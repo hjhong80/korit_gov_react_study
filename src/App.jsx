@@ -1,4 +1,8 @@
 import './App.css';
+import FruitsFilter from './ReactStudy/LifeCycle/FruitsFilter';
+import LifeCycleApp from './ReactStudy/LifeCycle/LifeCycleApp';
+import Render from './ReactStudy/LifeCycle/Render';
+import SignupForm from './ReactStudy/LifeCycle/SignupForm';
 import React01 from './ReactStudy/React01';
 import React02 from './ReactStudy/React02';
 import React03 from './ReactStudy/React03';
@@ -9,6 +13,8 @@ import ReactHook03 from './ReactStudy/ReactHook03';
 import ReactHook04 from './ReactStudy/ReactHook04';
 import ReactHook05 from './ReactStudy/ReactHook05';
 import ReactHook06 from './ReactStudy/ReactHook06';
+import ReactHook07 from './ReactStudy/ReactHook07';
+import ReactHook08 from './ReactStudy/ReactHook08';
 
 function App() {
     // const name = '이동윤';
@@ -32,7 +38,13 @@ function App() {
             {/* <ReactHook03 /> */}
             {/* <ReactHook04 /> */}
             {/* <ReactHook05 /> */}
-            <ReactHook06 />
+            {/* <ReactHook06 /> */}
+            {/* <ReactHook07 /> */}
+            {/* <Render /> */}
+            {/* <LifeCycleApp /> */}
+            {/* <FruitsFilter /> */}
+            {/* <SignupForm /> */}
+            <ReactHook08 />
         </>
     );
 }
