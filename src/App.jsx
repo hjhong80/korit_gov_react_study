@@ -1,4 +1,5 @@
 import './App.css';
+import Emotion1 from './Emotion/Emotion1';
 import FruitsFilter from './ReactStudy/LifeCycle/FruitsFilter';
 import LifeCycleApp from './ReactStudy/LifeCycle/LifeCycleApp';
 import Render from './ReactStudy/LifeCycle/Render';
@@ -15,6 +16,7 @@ import ReactHook05 from './ReactStudy/ReactHook05';
 import ReactHook06 from './ReactStudy/ReactHook06';
 import ReactHook07 from './ReactStudy/ReactHook07';
 import ReactHook08 from './ReactStudy/ReactHook08';
+import ReactHook09 from './ReactStudy/ReactHook09';
 
 function App() {
     // const name = '이동윤';
@@ -44,7 +46,9 @@ function App() {
             {/* <LifeCycleApp /> */}
             {/* <FruitsFilter /> */}
             {/* <SignupForm /> */}
-            <ReactHook08 />
+            {/* <ReactHook08 /> */}
+            {/* <Emotion1 /> */}
+            <ReactHook09 />
         </>
     );
 }
