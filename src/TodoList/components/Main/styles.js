@@ -17,16 +17,24 @@ export const listContainer = css`
         list-style: none;
         margin: 0;
         padding: 0;
-        height: 100%;
+        height: 422px;
+        overflow: auto;
 
         & > li {
+            position: relative;
             display: flex;
             padding: 10px 15px;
             border-bottom: 1px solid #dbdbdb;
             box-sizing: border-box;
             align-items: center;
+            justify-content: space-between;
 
-            & > input[type='checkbox'] {
+            & > div {
+                display: flex;
+                align-items: center;
+            }
+
+            & > div > input[type='checkbox'] {
                 display: none;
                 padding: 0;
                 margin: 0;
@@ -35,6 +43,7 @@ export const listContainer = css`
                     display: flex;
                     justify-content: center;
                     align-items: center;
+                    margin-right: 10px;
                     border-radius: 50%;
                     width: 16px;
                     height: 16px;
@@ -52,6 +61,23 @@ export const listContainer = css`
                 }
             }
         }
+    }
+`;
+
+export const trashBoxContainer = css`
+    position: absolute;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45px;
+    height: 45px;
+    font-size: 18px;
+    transition: all 0.2s ease-in-out;
+
+    &:hover {
+        background-color: #ee1111;
+        color: white;
     }
 `;
 
